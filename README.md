@@ -17,6 +17,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Rotate
 - Parameters:
+  - Image to transform
   - Number of images to generate (integer)
   - Maximum rotation in degrees (integer)
 - Returns:
@@ -24,12 +25,13 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Mirror
 - Parameters:
-  - None
+  - Image to transform
 - Returns:
   - Array of a single mirrored image
 
 ##### Translate
 - Parameters:
+- - Image to transform
   - Number of images to generate (integer)
   - Maximum distance in pixels (integer)
 - Returns:
@@ -37,6 +39,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Chameleon
 - Parameters:
+- - Image to transform
   - Number of images to generate (integer)
   - Maximum change in pixel colour (integer)
 - Returns:
@@ -44,6 +47,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Brighten
 - Parameters:
+- - Image to transform
   - Number of images to generate (integer)
   - Maximum change in pixel brightness (integer)
 - Returns:
@@ -51,6 +55,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Darken
 - Parameters:
+- - Image to transform
   - Number of images to generate (integer)
   - Maximum change in pixel darkness (integer)
 - Returns:
@@ -58,6 +63,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Zoom
 - Parameters:
+- - Image to transform
   - Number of images to generate (integer)
   - Maximum zoom depth (integer)
 - Returns:
@@ -66,4 +72,4 @@ A common application of supervised machine learning is identifying the object of
 
 ### Similar Packages
 
-Scikit-image is a image processing package that contains functions for performing various operations to images, such as rotating or resizing, among many others. R has a new package, OpenImageR, that is similar to scikit-image that has functions for image preprocessing, filtering, and image recognition. Our plan is to utilize some of these packages functionality and build them out so a user could pass in example images, from a training dataset for example, and get back different variations of them. We believe this could signficantly help in the training of image classification algorthims. 
+Scikit-image is a image processing package that contains functions for performing various operations to images, such as rotating or resizing, among many others. R has a new package, OpenImageR, that is similar to scikit-image that has functions for image preprocessing, filtering, and image recognition. Our plan is to utilize some of these packages functionality and build them out so a user could pass in example images, from a training dataset for example, and get back different variations of them. We believe this could signficantly help in the training of image classification algorthims.
