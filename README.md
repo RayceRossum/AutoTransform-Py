@@ -31,7 +31,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Translate
 - Parameters:
-- - Image to transform
+  - Image to transform
   - Number of images to generate (integer)
   - Maximum distance in pixels (integer)
 - Returns:
@@ -39,7 +39,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Chameleon
 - Parameters:
-- - Image to transform
+  - Image to transform
   - Number of images to generate (integer)
   - Maximum change in pixel colour (integer)
 - Returns:
@@ -47,7 +47,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Brighten
 - Parameters:
-- - Image to transform
+  - Image to transform
   - Number of images to generate (integer)
   - Maximum change in pixel brightness (integer)
 - Returns:
@@ -55,7 +55,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Darken
 - Parameters:
-- - Image to transform
+  - Image to transform
   - Number of images to generate (integer)
   - Maximum change in pixel darkness (integer)
 - Returns:
@@ -63,7 +63,7 @@ A common application of supervised machine learning is identifying the object of
 
 ##### Zoom
 - Parameters:
-- - Image to transform
+  - Image to transform
   - Number of images to generate (integer)
   - Maximum zoom depth (integer)
 - Returns:
